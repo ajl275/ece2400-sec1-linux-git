@@ -34,6 +34,10 @@ int main()
   if (gcd(5, 15) != 5) {
 		error = 1;
 	}
+  
+  if (gcd(20,20) != 20 ) {
+    error = 1;
+  }
 
 	if (error) {
 		printf("Test failed\n");
