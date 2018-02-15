@@ -1,0 +1,4 @@
+
+script:
+
+  grep red README.md
